@@ -3,7 +3,7 @@ def my_each(array) # put argument(s) here
   #if block_given?
   arr = 0
   while array < arr.length
-  yield array {|i| puts "Hi, #{i}"}
+  yield array 
 
   arr+=1
    end
