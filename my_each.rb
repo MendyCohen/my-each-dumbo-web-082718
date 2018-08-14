@@ -6,7 +6,6 @@ def my_each(array) # put argument(s) here
   yield {|i| puts "Hi, #{i}"}
 end
   arr+=1
-end
   end
  end
 end
