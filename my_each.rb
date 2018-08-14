@@ -4,9 +4,9 @@ def my_each(array) # put argument(s) here
   arr = 0
   while array < arr.length
   yield array 
-
+end
   arr+=1
-   end
+#   end
   end
  end
 end
