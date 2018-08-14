@@ -4,7 +4,7 @@ def my_each(array) # put argument(s) here
   arr = 0
   while array < arr.length
   yield array {|i| puts "Hi, #{i}"}
-end
+
   arr+=1
   end
  end
